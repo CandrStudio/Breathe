@@ -75,8 +75,13 @@ function fadeInMusic() {
 
 //Load Thoughts JSON
 window.addEventListener('load', function() {
-    fetch('./json/thoughts.json')
-    .then(response => response.json())
+    fetch('/json/thoughts.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error("HTTP error " + response.status);
+        }
+        return response.json();
+    })
     .then(data => {
         const phrases = data.phrases;
         const randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
