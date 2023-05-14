@@ -37,7 +37,7 @@ backgroundMusic.play();
 
 muteBtn.addEventListener('click', () => {
     isMuted = !isMuted;
-    muteBtn.src = isMuted ? './img/icons/volume-off.svg' : './img/icons/volume-on.svg';
+    muteBtn.src = isMuted ? './img/volume-off.svg' : './img/volume-on.svg';
     
     if (isMuted) {
         fadeOutMusic();

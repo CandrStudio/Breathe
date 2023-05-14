@@ -1,19 +1,19 @@
 
 body {
+    background: #021138;
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #235ced;
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('./img/backgrounds/noise.png');
-    background-repeat: repeat;
-    background-size: contain;
 }
 
 .container {
+    background-image: url('../img/noise.png');
+    background-repeat: repeat;
+    background-size: contain;
     width: 100%;
     height: 100%;
     display: flex;
@@ -23,6 +23,9 @@ body {
 
 .circle {
     background-color: #F7DCB8;
+    background-image: url('../img/noise.png');
+    background-repeat: repeat;
+    background-size: contain;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -69,7 +72,7 @@ body {
     color: #F7DCB8;
     display: flex;
     position: absolute;
-    top: 75%;
+    margin-top: 410px;
     font-size: 0.8rem;
     font-family: Arial, Helvetica, sans-serif;
 }
