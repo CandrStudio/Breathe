@@ -75,7 +75,7 @@ function fadeInMusic() {
 
 
 window.addEventListener('load', function() {
-    fetch('thoughts.json')
+    fetch('./json/thoughts.json')
     .then(response => response.json())
     .then(data => {
         const phrases = data.phrases;
