@@ -7,7 +7,7 @@ Breathe is a simple to use breathing and meditation app built on HTML, CSS and J
 - [ ] Add light theme
 - [ ] Add lofi audio option
 - [ ] Add spring audio option
-- [ ] Add *new* medication audio option
+- [ ] Add *new* meditation audio option
 - [X] Add noise texture
 - [X] Add lottie animation for breathe
 - [X] Update dark theme
