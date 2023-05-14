@@ -7,6 +7,7 @@ Breathe is a simple to use breathing and meditation app built on HTML, CSS and J
 
 **Release 1.0.2 - Pending Release**
 - Updated dark theme
+- Added thoughtful phrases (100 Base phrases)
 
 **Release 1.0.1 - May 6th, 2023**
 - Added Favicon
