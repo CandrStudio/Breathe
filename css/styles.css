@@ -22,13 +22,6 @@ body {
 }
 
 .circle {
-    background-color: #F7DCB8;
-    background-image: url('../img/noise.png');
-    background-repeat: repeat;
-    background-size: contain;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
     transition: 5s ease-in, 4s ease-out;
     display: flex;
     justify-content: center;

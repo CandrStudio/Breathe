@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="./img/favicon.png">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/lottie.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 <body>
  <div class="container">
@@ -14,7 +15,10 @@
         <div class="buttons">
             <img id="mute-btn" src="./img/volume-off.svg" alt="Mute/Unmute">
         </div>
-        <div class="circle"></div>
+
+        <div class="circle">
+            <lottie-player src="https://breathe.candr.space/json/breathe.json"  background="transparent"  speed=".5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        </div>
         <p id="phrase">testing....</p>
 
     </div>
