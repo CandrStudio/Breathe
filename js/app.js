@@ -72,3 +72,15 @@ function fadeInMusic() {
         }
     }, 100);
 }
+
+
+window.addEventListener('load', function() {
+    fetch('thoughts.json')
+    .then(response => response.json())
+    .then(data => {
+        const phrases = data.phrases;
+        const randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+        document.getElementById('phrase').innerText = randomPhrase;
+    })
+    .catch(error => console.error('Error:', error));
+});

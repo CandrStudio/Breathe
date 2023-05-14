@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000000;
+    background: #01050F;
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -19,25 +19,23 @@ body {
 }
 
 .circle {
-    background-color: #1B1B1C;
+    background-color: #F7DCB8;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     transition: 5s ease-in, 4s ease-out;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9.4px);
-    -webkit-backdrop-filter: blur(9.4px);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .breathing-text {
     position: absolute;
     margin: auto;
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
-    color: #B5B5B5;
+    color: #01050F;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -64,4 +62,11 @@ body {
     z-index: 2;
     margin-top: 35px;
 }
-
+#phrase {
+    color: #F7DCB8;
+    display: flex;
+    position: absolute;
+    top: 75%;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
