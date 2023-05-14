@@ -73,7 +73,7 @@ function fadeInMusic() {
     }, 100);
 }
 
-
+//Load Thoughts JSON
 window.addEventListener('load', function() {
     fetch('./json/thoughts.json')
     .then(response => response.json())
