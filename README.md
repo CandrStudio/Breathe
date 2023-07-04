@@ -4,15 +4,13 @@
 Breathe is a simple to use breathing and meditation app built on HTML, CSS and JavaScript.
 
 ## To-Do
-- [ ] Add light theme
-- [ ] Add lofi audio option
-- [ ] Add spring audio option
-- [ ] Add *new* meditation audio option
-- [X] Add noise texture
-- [X] Add lottie animation for breathe
-- [X] Update dark theme
+
 
 ## Release Notes
+**Release 1.0.3 - July 3rdth, 2023**
+- Rebuilt everything from scratch with new design
+- New breathing options
+
 **Release 1.0.2 - May 14th, 2023**
 - Updated dark theme
 - Added noise texture in background
