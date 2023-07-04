@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Breathe</title>
-    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
-    <link rel="stylesheet" href="./css/styles.css">
-    <script src="./js/lottie.js" type="text/javascript"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Breathing App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
- <div class="container">
-        <p class="breathing-text">Breathe In</p>
-        <div class="buttons">
-            <img id="mute-btn" src="./img/volume-off.svg" alt="Mute/Unmute">
-        </div>
+  <div id="loading-screen">
+    <h2>Focus on your breathing.</h2>
+    <p>Nothing else matters in this moment...</p>
+  </div>
 
-        <div class="circle"></div>
+  <div id="app-container">
+    
+    <div class="breathing-Circle"></div>
+    
+    <p class="breathing-text">Breathe In</p>
+    <p id="phrase"></p>
 
-        <p id="phrase"></p>
+    <button id="breathingModeButton"><p>Calm</p></button>
+  </div>
 
-    </div>
-    <audio id="background-music" src="./aud/meditation.wav" loop></audio>
-    <script src="./js/app.js"></script>
-
+  <script src="js/script.js"></script>
 </body>
 </html>
